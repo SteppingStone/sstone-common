@@ -6,7 +6,23 @@ This project includes java libraries that do not depend on CLDC/MIDP libraries.
 Some of these classes are used by both the **Stepping Stone Desktop Authoring
 Tool** (sstone-dat) and the **Stepping Stone J2ME Client** (sstone-j2me).
 
+This library includes source files taken from the following open-source projects:
+
+    - `GNU Classpath <http://www.gnu.org/software/classpath/>`_
+    - `J2ME Polish <http://www.enough.de/products/j2me-polish/>`_
+    - `J4ME <https://code.google.com/p/j4me/>`_
+    - `Apache Commons Lang <https://commons.apache.org/lang/>`_
+
+The gnu.classpath.java.util.zip contains a stripped-down version of just the
+*unzip* functionality of java.util.zip that has been ported to work with J2ME.
+As such, it may be useful in other projects.
+
 This project uses a standard maven build.
+
+Contributors
+------------
+
+- Greg Orlowski (first version, 2012)
 
 ====
 Misc
