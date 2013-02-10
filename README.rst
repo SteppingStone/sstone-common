@@ -17,6 +17,7 @@ The gnu.classpath.java.util.zip contains a stripped-down version of just the
 *unzip* functionality of java.util.zip that has been ported to work with J2ME.
 As such, it may be useful in other projects.
 
+
 This project uses a standard maven build.
 
 Contributors
